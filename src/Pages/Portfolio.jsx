@@ -28,7 +28,7 @@ function Portfolio() {
 
   return (
     <div className="relative bg-black overflow-x-hidden max-w-[100vw]">
-      <p className="z-50 px-8 text-[#FFC11F] uppercase mt-16 2xl:text-3xl xl:text-xl">Our Portfolio</p>
+      <p className="z-50 px-8 text-[#3fff56] uppercase mt-16 2xl:text-3xl xl:text-xl">Our Portfolio</p>
 
       <div className="horizontal-container h-[100vh]" style={{
         width: `${500}%`,
@@ -38,7 +38,7 @@ function Portfolio() {
           <section
             className="panel w-screen h-screen flex items-center justify-center flex-shrink-0"
           >
-            <div className="relative w-fit border-2 border-[#FFC11F] rounded-2xl p-2">
+            <div className="relative w-fit border-2 border-[#3fff56] rounded-2xl p-2">
               <img
                 src={kntag}
                 alt=""
@@ -49,7 +49,7 @@ function Portfolio() {
           <section
             className="panel w-screen h-screen flex items-center justify-center flex-shrink-0"
           >
-            <div className="relative w-fit border-2 border-[#FFC11F] rounded-2xl p-2">
+            <div className="relative w-fit border-2 border-[#3fff56] rounded-2xl p-2">
               <img
                 src={MercuryMart}
                 alt=""
@@ -60,7 +60,7 @@ function Portfolio() {
           <section
             className="panel w-screen h-screen flex items-center justify-center flex-shrink-0"
           >
-            <div className="relative w-fit border-2 border-[#FFC11F] rounded-2xl p-2">
+            <div className="relative w-fit border-2 border-[#3fff56] rounded-2xl p-2">
               <video
                 className="2xl:h-[600px] w-[890px] xl:h-[500px] rounded-md"
                 autoPlay
@@ -74,7 +74,7 @@ function Portfolio() {
           <section
             className="panel w-screen h-screen flex items-center justify-center flex-shrink-0"
           >
-            <div className="relative w-fit border-2 border-[#FFC11F] rounded-2xl p-2">
+            <div className="relative w-fit border-2 border-[#3fff56] rounded-2xl p-2">
               <video
                 className="2xl:h-[600px] w-[890px] xl:h-[500px] rounded-md"
                 autoPlay
@@ -88,7 +88,7 @@ function Portfolio() {
           <section
             className="panel w-screen h-screen flex items-center justify-center flex-shrink-0"
           >
-            <div className="relative w-fit border-2 border-[#FFC11F] rounded-2xl p-2">
+            <div className="relative w-fit border-2 border-[#3fff56] rounded-2xl p-2">
               <video
                 className="2xl:h-[600px] w-[890px] xl:h-[500px] rounded-md"
                 autoPlay

@@ -1,26 +1,19 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
-import Home from "./Pages/Home";
-import About from "./Pages/About/About";
-import Offers from "./Pages/Offerings/offers";
-import List from "./Pages/Offerings/list";
-import Portfolio from "./Pages/Portfolio";
-import Testimonial from "./Pages/Testimonial";
-import Footer from "./Pages/Footer";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+
+import Index from "./Index";
+import PortfolioPage from "./Pages/Portfolio/Portfolio";
 
 function App() {
-  return (
-    <div className=" max-w-[100vw] overflow-x-hidden">
-      <Navbar />
-      <Home />
-      <About />
-      <Offers />
-      <List />
-      <Portfolio />
-      <Testimonial />
-      <Footer />
-    </div>
-  );
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<Index />} />
+                <Route path="/portfolio" element={<PortfolioPage />} />
+                {/* Add more routes as needed */}
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;

@@ -10,7 +10,7 @@ function Offerings() {
   ];
   return (
     <div className="">
-      <p className="z-50 text-[#FFC11F] mt-32 uppercase 2xl:text-3xl xl:text-xl">our expertise</p>
+      <p className="z-50 text-[#3fff56] mt-32 uppercase 2xl:text-3xl xl:text-xl">our expertise</p>
       <div className="bg-black mt-32 text-base relative md:h-[90vh] h-[60vh]">
         <FlowingMenu items={demoItems} />
       </div>

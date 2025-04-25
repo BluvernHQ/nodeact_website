@@ -9,7 +9,7 @@ function About() {
     const textRef = useRef();
 
     useEffect(() => {
-        const originalText = "At our core, we’re artists and innovators. We join forces with visionaries to breathe life into ideas—transforming creative sparks into elegant, scalable software that turns dreams into reality.";
+        const originalText = "We’re a crew of dreamers and builders, pumped to create epic stuff that hits all the right spots! No oceans or forests—just a playground where ideas come alive through bold collaboration. From slick software to game-changing hardware, stunning designs to jaw-dropping animations, we craft solutions that rock from vision to victory!";
         const words = originalText.split(/(\s+)/);
     
         textRef.current.innerHTML = words.map(word => 
@@ -20,7 +20,7 @@ function About() {
         textRef.current.offsetHeight;
     
         const tween = gsap.to(".word", {
-            color: "#FFC11F",
+            color: "#004aad",
             stagger: 0.3,
             ease: "none",
             paused: true
@@ -29,7 +29,7 @@ function About() {
         ScrollTrigger.create({
             trigger: containerRef.current,
             start: "top top",
-            end: "+=300%",
+            end: "+=100%",
             pin: true,
             onUpdate: (self) => {
                 tween.progress(self.progress);
@@ -44,10 +44,10 @@ function About() {
     
     return (
         <div ref={containerRef} className="h-[100vh] p-8 relative" style={{ background: "linear-gradient(180deg, #101010 40.51%, #000 100%)" }}>
-            <p className="z-50 text-[#FFC11F] uppercase mt-16 2xl:text-3xl xl:text-xl">About</p>
+            <p className="z-50 text-[#3fff56] uppercase mt-16 2xl:text-3xl xl:text-xl">About</p>
             <div 
                 ref={textRef}
-                className="2xl:text-7xl lg:text-5xl md:text-4xl text-2xl w-[90%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white"
+                className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-4xl text-2xl w-[90%] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white"
             />
             <div className="flex absolute bottom-10 w-full items-center justify-end gap-2 right-10 ">
                 <div className="h-[2px] w-[50%] bg-white"></div>

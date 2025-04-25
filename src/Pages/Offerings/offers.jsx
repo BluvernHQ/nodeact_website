@@ -43,7 +43,7 @@ function Offers() {
 
     return (
         <div ref={containerRef} className=" min-h-[70vh] md:h-[100vh] px-8 relative bg-black">
-            <p className="z-50 text-[#FFC11F] uppercase 2xl:text-3xl xl:text-xl">What do we offer</p>
+            <p className="z-50 text-[#3fff56] uppercase 2xl:text-3xl xl:text-xl">What do we offer</p>
             <div className="2xl:text-8xl lg:text-6xl md:text-4xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
                 <div className="flex flex-col gap-8">
                     <div className="flex items-center gap-2 md:gap-6 justify-center">

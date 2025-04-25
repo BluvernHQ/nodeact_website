@@ -42,7 +42,7 @@ function Testimonial() {
 
   return (
     <div className="px-8 lg:pt-16 bg-black overflow-hidden">
-      <p className="z-50 text-[#FFC11F] uppercase mt-16 2xl:text-3xl xl:text-xl">What Users say</p>
+      <p className="z-50 text-[#3fff56] uppercase mt-16 2xl:text-3xl xl:text-xl">What Users say</p>
       <div className="py-16 overflow-hidden">
         <div className="inline-flex animate-scroll">
           {duplicatedItems.map((item, index) => (

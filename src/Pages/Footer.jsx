@@ -19,7 +19,7 @@ function Footer() {
                     <div className="absolute bottom-0 w-full max-w-[calc(100%-4rem)] left-4">
                         <hr className=" border-black" />
                         <div className="flex w-full lg:px-8 justify-between items-center">
-                            <p className=" py-4 text-black md:text-xl text-xs">Nodeact @ 2025</p>
+    <p className=" py-4 text-black md:text-xl text-xs">Bluvern               @ 2025</p>
                             <p className=" py-4 text-black md:text-xl text-xs">All Rights Reserved</p>
                         </div>
                     </div>
