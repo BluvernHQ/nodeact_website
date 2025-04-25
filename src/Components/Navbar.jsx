@@ -53,7 +53,7 @@ function Navbar() {
               <a className="font-medium uppercase text-gray-300 hover:text-white" href="">About</a>
               <a className="font-medium uppercase text-gray-300 hover:text-white" href="">Services</a>
               <a className="font-medium uppercase text-gray-300 hover:text-white" href="">Portfolio</a>
-              <a className="font-medium uppercase px-4 py-2 rounded-lg bg-yellow-300 text-black hover:bg-yellow-400" href="">
+              <a className="font-medium uppercase px-4 py-2 rounded-lg bg-[#3fff56] text-black hover:bg-[#3fff56]" href="">
                 Contact
               </a>
             </div>

@@ -20,7 +20,7 @@ function About() {
         textRef.current.offsetHeight;
     
         const tween = gsap.to(".word", {
-            color: "#004aad",
+            color: "#1c95ff",
             stagger: 0.3,
             ease: "none",
             paused: true

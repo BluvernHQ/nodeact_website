@@ -7,7 +7,7 @@ function Footer() {
             <div className="flex h-full items-end justify-between">
                 <div className=" h-full">
                     <div className="flex flex-col h-[75%] md:h-[90%] justify-between">
-                        <p className="z-50 text-black 2xl:text-9xl lg:text-7xl md:text-5xl text-3xl">Nodeact</p>
+                        <p className="z-50 text-black 2xl:text-9xl lg:text-7xl md:text-5xl text-3xl">Bluvern</p>
                         <div className="flex items-center pb-10 lg:pb-0">
                             <p className="text-black 2xl:text-8xl lg:text-6xl md:text-4xl text-xl ">Let's Talk </p>
                             <svg className="md:h-[64px] h-[24px] w-[24px] md:w-[64px]" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">

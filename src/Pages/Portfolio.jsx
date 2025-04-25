@@ -99,6 +99,14 @@ function Portfolio() {
               />
             </div>
           </section>
+          <section
+            className="panel w-screen h-screen flex items-center justify-center flex-shrink-0"
+          >
+            <div className="relative w-fit border-2 border-[#3fff56] rounded-2xl p-2">
+              <div className="2xl:h-[600px] w-[890px] xl:h-[500px] relative rounded-md"/>
+              <a href="/portfolio" className=" cursor-pointer 2xl:text-4xl xl:text-3xl lg:text-2xl md:text-3xl text-xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Explore More</a>
+            </div>
+          </section>
         </div>
       </div>
     </div>

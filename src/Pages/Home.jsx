@@ -15,7 +15,7 @@ function Home() {
                 hoverFillColor='#222'
                 className="absolute top-0 left-0 w-full h-full pointer-events-none"
             />
-            <p className="md:before:w-[4px] before:w-[2px] before:h-[100vh] before:mb-8 before:bottom-[100%] before:left-1/2 before:bg-white before:absolute 2xl:text-4xl xl:text-3xl mt-16 font-bold writing-mode-vertical">BLUVERN</p>
+            <p className="md:before:w-[4px] before:w-[2px] before:h-[90vh] before:mb-8 before:bottom-[100%] before:left-1/2 before:bg-white before:absolute 2xl:text-4xl xl:text-3xl mt-16 font-bold writing-mode-vertical text-[#3fff56]">BLUVERN</p>
 
             <div className="absolute md:bottom-10 md:right-16 left-[55%] overflow-hidden w-[90%] transform -translate-x-1/2 bottom-1/3 flex flex-col items-center">
                 <div>
